@@ -4,7 +4,8 @@
   "description": "Tu solucion digital",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "dev": "lite-server",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,9 @@
   },
   "author": "Agustin Lort\u001b[D\u001b[C",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Agustinlort/cidnet#readme"
+  "homepage": "https://bitbucket.org/Agustinlort/cidnet#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }  
 }
+
