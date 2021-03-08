@@ -4,8 +4,8 @@
   "description": "Tu solucion digital",
   "main": "index.html",
   "scripts": {
-     "dev": "lite-server",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,10 @@
   "homepage": "https://bitbucket.org/Agustinlort/cidnet#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }  
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
 }
-
