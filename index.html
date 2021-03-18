@@ -8,7 +8,9 @@
     <!-- Bootstrap CSS -->
     <!--<link href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link href="css/main.css" rel="stylesheet">
 
+  
 
     <title>CidNet</title>
   </head>
@@ -16,17 +18,16 @@
   <div class="jumbotron">
            <h1>CidNet</h1>
      </div>
-     <div class="container-fluid">
        <div class="container">
-       <div class="row">
-          <div class="col-sm-4">
+       <div class="d-flex ">
+          <div class="col-sm-4 ">
                   <p>
                     <h2>De que trata?</h2>
                     <p>CidNet es una solucion a tus problemas digitales, nos encargamos de resolver cualquier tipo de delito informatico 
                     que te haya ocurrido</p>
                  </p>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-8">
+    <div class="col-sm-4 ">
     <p>
     <h2>Consultas</h2>
     <p>Este apartado es para cualquier consultas que quieras resolver</p>
@@ -35,22 +36,62 @@
     </div>
     <br>
 
-    <div class="row">
-    <div class="col-sm-4">
-    <h2>Problemas</h2>
+    <div class="d-flex flex-wrap flex-row-reverse">
+    <div class=" card-cidnet d-flex flex-column">
+    <div><h2>Problemas</h2>
     <p>Los posibles problemas que puedas tener</p>
-    <button class="btn"> Click Aqui </button>
+  </div>
+  <div>
+    <button class="btn-primary btn-reserva"> Click Aqui </button>
+  </div>
      </div>
-  <div class="col-sm-4">
-  <h2>Soluciones</h2>
+  <div class=" card-cidnet d-flex flex-column justify-content-between">
+  <div><h2>Soluciones</h2>
     <p>Las posibles soluciones que podes brindarte</p>
-<button class="btn"> Click Aqui </button>    
- <div class="col-sm-4">
-    <h2>Nosotros</h2>
-    <p>Conoce mas de nosotros</p>
-<button class="btn"> Click Aqui </button></div>
+  </div>
+<button class="btn-primary btn-reserva"> Click Aqui </button>    
+ <div class=" card-cidnet d-flex flex-column">
+    <div><h2>Nosotros</h2>
+    <p>Conoce mas de nosotros</p></div>
+<div><button class="btn-primary btn-reserva"> Click Aqui </button></div></div>
     </div>
+    <div class=" card-cidnet d-flex flex-column justify-content-between">
+    <div><h2>Dudas</h2>
+    <p>Las posibles dudas que puedas tener</p></div>
+    <div><button class="btn-primary btn-reserva"> Click Aqui </button></div>
+    <div class=" card-cidnet d-flex flex-column justify-content-between">
+    <div><h2>Contacto</h2>
+    <p>Contactanos!</p></div>
+    <div><button class="btn-primary btn-reserva"> Click Aqui </button></div>
+    <div class="card-cidnet d-flex flex-column">
+    <div><h2>Soporte</h2>
+    <p>Nuestro soporte</p></div>
+    <div><button class="btn-primary btn-reserva"> Click Aqui </button></div>
+     </div>
+     </div>
+     </div>
 </div>
+
+<footer>
+  <div class="row">
+  <div class="col-sm-4 d-flex flex-column">
+    <a href="http://www.facebook.com">Facebook</a>
+      <a href="http://www.Twitter.com">Twitter</a>
+        <a href="http://www.instagram.com">Instagram</a>
+  </div>
+
+  <div class="col-sm-4">
+  <address> Gurruchaga 255, CABA, Argentina
+  +549112345678
+contacto@cidnet.com</address>
+</div>
+
+  <div class="col-sm-4 d-flex flex-column align-items-end">
+    <a href="http://www.facebook.com">Nosotros</a>
+      <a href="http://www.Twitter.com">Contacto</a>
+        <a href="http://www.instagram.com">Terminos y Condiciones</a>
+  </div>
+</footer>
 
   
 
