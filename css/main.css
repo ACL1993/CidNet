@@ -31,3 +31,9 @@
  .footer-adress-icon {
     padding-right: 10px;
   }
+
+.card-img-top {
+ flex: 1 200px;
+ padding: 4px 0px 4px 0px;
+margin-top: 10px
+ }
